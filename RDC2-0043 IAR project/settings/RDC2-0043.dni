@@ -1,0 +1,86 @@
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Interrupts]
+Enabled=1
+[MemConfig]
+Base=1
+Manual=0
+Ddf=1
+TypeViol=0
+Stop=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Simulator]
+Freq=10000000
+MultiCoreRunAll=1
+[StLinkDriver]
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+stlinkserialNo=D8039CDF
+stlinkfoundProbes=
+[DebugChecksum]
+Checksum=451106173
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[struct_types]
+Fmt0=KeyType-Level	3	0
+Fmt1=KeyType-Pin	3	0
+Fmt2=KeyType-State	3	0
+[array_types]
+Fmt0=uint8_t[14]	4	0
+Fmt1=uint8_t[17]	4	0
+Fmt2=uint8_t[4]	4	0
+[watch_formats]
+Fmt0={W}1:ADCData	3	0
+Fmt1={W}1:AWDHighThreshold	3	0
+Fmt2={W}1:AWDLowThreshold	3	0
+Fmt3={W}1:Configuration[14]	4	0
+Fmt4={W}1:Configuration[17]	4	0
+Fmt5={W}1:ProtTime	4	0
+Fmt6={W}1:State	1	0
+Fmt7={W}1:TimerARR	4	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+Count=0
+SuppressDialog=0
